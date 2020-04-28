@@ -5,18 +5,29 @@ body {
 header {
     align-content: center;
 }
+
+.center {
+    text-align: center;
+}
 .title {
     font-family: sans-serif;
     font-size: 8rem;
-    text-align: center;
 }
 
-.tagline {
+h2 {
     font-size: 5rem;
-    text-align: center;
 }
 
 nav {
     font-size: 3rem;
-    text-align: center;
+}
+
+h4 {
+    font-size: 4rem;
+    color: brown;
+}
+
+p {
+    font-size: 3rem;
+    color: chocolate
 }
