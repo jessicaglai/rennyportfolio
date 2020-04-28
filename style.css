@@ -1,3 +1,19 @@
 body {
     background: cornsilk;
 }
+
+.title {
+    font-family: sans-serif;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 5rem;
+    text-align: center;
+}
+
+nav {
+    font-size: 3rem;
+    text-align: center;
+}
