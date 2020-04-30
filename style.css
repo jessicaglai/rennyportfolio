@@ -41,7 +41,7 @@ nav li {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: light;
     text-transform: uppercase;
-    padding: 20rem;
+    display: inline-block;
 }
 
 h3, h4 {
