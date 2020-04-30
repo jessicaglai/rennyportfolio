@@ -42,3 +42,7 @@ p, ul {
     font-size: 3rem;
     color: chocolate
 }
+
+.project {
+    width: 100%;
+}
