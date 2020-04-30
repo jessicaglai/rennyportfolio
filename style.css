@@ -6,6 +6,10 @@ header {
     align-content: center;
 }
 
+.icon {
+    border-radius: 0.25rem;
+}
+
 .center {
     text-align: center;
 }
