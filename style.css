@@ -48,11 +48,15 @@ nav li {
 h3, h4 {
     font-size: 4rem;
     color: brown;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 
 p, li {
     font-size: 3rem;
     color: chocolate;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: medium;
 }
 
 footer p{
