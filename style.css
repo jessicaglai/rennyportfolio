@@ -40,9 +40,16 @@ h3, h4 {
 
 p, ul {
     font-size: 3rem;
-    color: chocolate
+    color: chocolate;
+}
+
+footer p{
+    font-size: 1rem;
+    color: brown;
 }
 
 .project {
     width: 100%;
+    margin: 0 auto;
 }
+
