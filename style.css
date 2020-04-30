@@ -7,6 +7,9 @@ header {
 }
 
 .icon {
+    height: 400px;
+    width: 400px;
+    background-image: url(.//images/renny\ icon.jpg)
     border-radius: 0.25rem;
 }
 
