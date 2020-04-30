@@ -9,8 +9,9 @@ header {
 .icon {
     height: 400px;
     width: 400px;
+    margin: 0 auto;
     background-image: url(./images/renny\ icon.jpg);
-    border-radius: 0.25rem;
+    border-radius: 50%;
 }
 
 .center {
