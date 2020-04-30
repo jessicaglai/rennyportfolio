@@ -22,6 +22,10 @@ header {
     font-size: 8rem;
 }
 
+.strong {
+    font-weight: strong;
+}
+
 h2 {
     font-size: 5rem;
 }
