@@ -1,0 +1,77 @@
+body {
+    background: cornsilk;
+}
+
+header {
+    align-content: center;
+    width: fit-content;
+}
+
+.icon {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-image: url(../images/renny\ icon.jpg);
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;
+}
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 8rem;
+}
+
+.strong {
+    font-weight: strong;
+}
+
+h2 {
+    font-size: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+nav {
+    width: max-content;
+    background-color: burlywood;
+}
+
+nav li {
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: light;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 2rem;
+}
+
+h3, h4 {
+    font-size: 4rem;
+    color: brown;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+p, li {
+    font-size: 3rem;
+    color: chocolate;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: medium;
+}
+
+footer p{
+    font-size: 1rem;
+    color: brown;
+    width: 50rem;
+    text-align: center;
+}
+
+.project {
+    width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+

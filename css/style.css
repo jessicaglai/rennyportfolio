@@ -2,24 +2,19 @@ body {
     background: cornsilk;
 }
 
+/*
 header {
-    align-content: center;
+    
+}
+*/
+
+img {
+    max-width:100%;
+    height:auto;
 }
 
-.icon {
-    height: 400px;
-    width: 400px;
-    margin: 0 auto;
-    background-image: url(./images/renny\ icon.jpg);
-    border-radius: 50%;
-}
-
-.center {
-    text-align: center;
-}
 .title {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 8rem;
 }
 
 .strong {
@@ -27,33 +22,31 @@ header {
 }
 
 h2 {
-    font-size: 5rem;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 nav {
-    
     background-color: burlywood;
 }
 
 nav li {
-    font-size: 3rem;
+    
     font-family: 'Josefin Sans', sans-serif;
     font-weight: light;
     text-transform: uppercase;
-    display: inline-block;
-    padding: 2rem;
+    
+    
 }
 
 h3, h4 {
-    font-size: 4rem;
+    
     color: brown;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
 }
 
 p, li {
-    font-size: 3rem;
+    
     color: chocolate;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: medium;
@@ -65,9 +58,9 @@ footer p{
 }
 
 .project {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    
+    
+    
     font-family: 'Josefin Sans', sans-serif;
 }
 
