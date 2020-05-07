@@ -5,7 +5,7 @@ body {
 
 header {
     align-content: center;
-    width: fit-content;
+    width: screen;
 }
 
 .icon {
@@ -16,6 +16,11 @@ header {
     border-radius: 50%;
 }
 
+img {
+    max-width:100%;
+    height:auto;
+}
+
 .center {
     text-align: center;
 }
@@ -23,31 +28,67 @@ header {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 5rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .tagline {
     font-size: 4rem;
+    text-align: center;
 }
 
 .strong {
     font-weight: strong;
 }
 
-h2 {
-    font-size: 5rem;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-}
-
 nav {
     background-color: burlywood;
+    width: screen;
+    text-align: center;
+    align-content: center;
 }
 
 nav li {
     font-size: auto;
     display: inline-block;
     padding: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: light;
+    text-transform: uppercase;
 
+}
+
+.secheader {
+    text-align: center;
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+
+
+.project {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section {
+    width: 50rem;
+}
+
+
+
+.profilepic {
+    margin: auto;
+}
+
+.about {
+    margin: auto;
+}
+
+h2 {
+    font-size: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
 
 h3, h4 {
@@ -69,28 +110,5 @@ footer p{
     color: brown;
     width: 50rem;
     text-align: center;
-}
-
-.project {
-    width: 50rem;
-    margin: 0 auto;
-    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-}
-
-section {
-    width: 50rem;
-}
-
-.secheader {
-    text-align: center;
-    margin-top: 5rem;
-}
-
-.profilepic {
-    margin: auto;
-}
-
-.about {
-    margin: auto;
 }

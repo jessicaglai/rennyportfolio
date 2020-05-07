@@ -1,56 +1,40 @@
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 100%);
-    grid-template-rows: repeat(6, 1fr);
-}
+
 
 
 .icon {
     height: 100px;
     width: 100px;
-    margin: 0 auto;
-    background-image: url(../images/renny\ icon.jpg);
-    border-radius: 50%;
     background-size: 100px;
     background-repeat: no-repeat;
 }
 
 .title {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 2rem;
     letter-spacing: .3rem;
     line-height: 1rem;
 }
 
 .tagline {
-    text-align: center;
-}
-
-nav {
-    text-align: center;
-    align-content: center;
+    font-size: 1.5rem;
 }
 
 nav li {
- display: inline-block;
  padding: auto;
  font-size: 1rem;
  }
 
  
  .secheader {
-     text-transform: uppercase;
      font-size: 2rem;
      letter-spacing: .3rem;
-     margin-top: 2rem;
+     margin-top: 3rem;
      margin-left: 5rem;
+     text-align: left;
  }
 
 .project {
      display: inline-block;
      line-height: auto;
-     margin: auto;
      padding: 4rem;
  }
 
@@ -78,7 +62,6 @@ nav li {
  
 
  img {
-     height: auto;
      width: auto;
  }
 
@@ -86,11 +69,7 @@ nav li {
      font-size: 1.5rem;
  }
 
- h3 {
-     font-size: 2rem;
- }
-
- h4 {
+ h3, h4 {
      font-size: 2rem;
  }
 
@@ -115,7 +94,6 @@ nav li {
     display: flex;
     width: 30%;
     padding: auto;
-    margin: auto;
 }
 
 .contact {
