@@ -6,20 +6,21 @@
 
 
 .icon {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     margin: 0 auto;
     background-image: url(../images/renny\ icon.jpg);
     border-radius: 50%;
-    background-size: 200px;
+    background-size: 100px;
     background-repeat: no-repeat;
 }
 
 .title {
     text-align: center;
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 2rem;
     letter-spacing: .3rem;
+    line-height: 1rem;
 }
 
 .tagline {
@@ -33,13 +34,52 @@ nav {
 
 nav li {
  display: inline-block;
- padding-left: 2rem;
- padding-right: 2rem;
- font-size: 2rem;
+ padding: auto;
+ font-size: 1rem;
+ }
+
+ 
+ .secheader {
+     text-transform: uppercase;
+     font-size: 2rem;
+     letter-spacing: .3rem;
+     margin-top: 2rem;
+     margin-left: 5rem;
+ }
+
+.project {
+     display: inline-block;
+     line-height: auto;
+ }
+
+ .description {
+     width: 50%;
+     text-align: center;
+     display: inline-block;
+     margin: auto;
+     vertical-align: middle;
+
+ }
+
+ span {
+     display: float;
+ }
+
+ .pic {
+     width: 50%;
+     height: fit-content;
+     margin: auto;
+     align-content: right;
+     float: right;
+ }
+
+ img {
+     height: auto;
+     width: auto;
  }
 
  h2 {
-     font-size: 3rem;
+     font-size: 1.5rem;
  }
 
  h3 {
@@ -47,11 +87,11 @@ nav li {
  }
 
  h4 {
-     font-size: 3rem;
+     font-size: 2rem;
  }
 
  p, li {
-     font-size: 2rem;
+     font-size: 1rem;
      display: block;
      padding: 1rem;
  }
