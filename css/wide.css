@@ -50,6 +50,8 @@ nav li {
 .project {
      display: inline-block;
      line-height: auto;
+     margin: auto;
+     padding: 4rem;
  }
 
  .description {
@@ -67,11 +69,13 @@ nav li {
 
  .pic {
      width: 50%;
-     height: fit-content;
+     height: auto;
      margin: auto;
      align-content: right;
      float: right;
  }
+
+ 
 
  img {
      height: auto;
@@ -83,7 +87,7 @@ nav li {
  }
 
  h3 {
-     font-size: 3rem;
+     font-size: 2rem;
  }
 
  h4 {
@@ -91,7 +95,30 @@ nav li {
  }
 
  p, li {
-     font-size: 1rem;
+     font-size: 1.5rem;
      display: block;
      padding: 1rem;
  }
+
+ .bioblock {
+     align-content: center;
+ }
+
+ .about {
+     width: 50%;
+     display: flex;
+     padding: auto;
+     margin: auto;
+ }
+
+ .profilepic {
+    display: flex;
+    width: 30%;
+    padding: auto;
+    margin: auto;
+}
+
+.contact {
+    text-align: center;
+    line-height: 2rem;
+}

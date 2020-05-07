@@ -1,5 +1,6 @@
 body {
     background: cornsilk;
+    width: fit-content;
 }
 
 header {
@@ -20,8 +21,12 @@ header {
 }
 .title {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 8rem;
+    font-size: 5rem;
     text-align: center;
+}
+
+.tagline {
+    font-size: 4rem;
 }
 
 .strong {
@@ -35,17 +40,14 @@ h2 {
 }
 
 nav {
-    width: max-content;
     background-color: burlywood;
 }
 
 nav li {
-    font-size: 3rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: light;
-    text-transform: uppercase;
+    font-size: auto;
     display: inline-block;
     padding: 2rem;
+
 }
 
 h3, h4 {
@@ -78,4 +80,17 @@ footer p{
 
 section {
     width: 50rem;
+}
+
+.secheader {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.profilepic {
+    margin: auto;
+}
+
+.about {
+    margin: auto;
 }
